@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(252, 176, 176);
+    font-family: cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.recipe-item {
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px grey;
+}
+
+button {
+    background-color: rgb(255, 117, 140);
+    border-radius: 3px;
+    color: white;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+input {
+    width: 200px;
+    height: 30px;
+}
+  
